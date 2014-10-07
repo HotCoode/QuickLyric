@@ -1,22 +1,14 @@
 <resources>
 
     <style name="Theme.quicklyric" parent="@style/Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:actionBarItemBackground">@drawable/selectable_background_quicklyric
-        </item>
-        <item name="android:popupMenuStyle">@style/PopupMenu.quicklyric</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.quicklyric</item>
-        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.quicklyric</item>
-        <item name="android:actionDropDownStyle">@style/DropDownNav.quicklyric</item>
-        <item name="android:actionBarStyle">@style/ActionBar.Solid.quicklyric</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
         <item name="android:actionModeBackground">@drawable/cab_background_top_quicklyric</item>
         <item name="android:actionModeCloseButtonStyle">@style/ActionMode.CloseButton</item>
         <item name="android:windowBackground">@color/window_background</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:listViewStyle">@style/ListView.quicklyric</item>
         <item name="android:editTextStyle">@style/EditTextQuicklyric</item>
-        <item name="android:checkboxStyle">@style/CheckBoxQuicklyric</item>
-        <!-- Light.DarkActionBar specific -->
-        <item name="android:actionBarWidgetTheme">@style/Theme.quicklyric.Widget</item>
         <item name="showcaseViewStyle">@style/quicklyricShowcaseTheme</item>
     </style>
 
